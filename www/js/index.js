@@ -168,7 +168,7 @@ var app = {
                     sum = [0,0,0,0,0,0,0,0,0,0];
                 for (j=oneNum.length-1; j>-1; j--) {
                     let firstSum = (oneNum[j]*twoNum[i])+[];
-                     if (firstSum.length < 1){
+                     if (firstSum.length != 2){
                          sum[k] += +(firstSum[0]);
                          k++;
                      }else {
